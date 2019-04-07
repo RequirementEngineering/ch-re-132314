@@ -20,6 +20,7 @@ The third chapter, Specific requirements, will describe the details of the funci
 This software system is a new product that will be implemented in the Test Library of certain town. It will be divided in two main parts, the software application for the librarian and the application for the customer. Both of this applications will be connected to a database designed for the purpose of this system.
 #### Product functions
 Librarian Desktop Application:
+* Register a new employee.
 * Register a new customer.
 * Register, update or delete the information of a book.
 * Register the date and time of a borrowed book, its information and which customer got it.
@@ -48,8 +49,9 @@ The both applications have visual elements that will be described in this sectio
 ##### Librarian Application
 Section | Description
 ---------|-----------
-Login | This is the first window that will pop up once the application is running. The librarian must input their username and password to gain access to the system.
-Main menu | This window will pop up once the librarian got access. They will have an array of options to choose from: Register Customer, Register/Delete Book, Consult Book, Lend Book and Borrowed Books.
+Login | This is the first window that will pop up once the application is running. The employee must input their username and password to gain access to the system.
+Main menu | This window will pop up once the librarian got access. They will have an array of options to choose from: Register Employee, Register Customer, Register/Delete Book, Consult Book, Lend Book and Borrowed Books.
+Register/Delete Employee | The librarian will be able to register a new employee. The information requested will be: Name, Telephone number, Email, Username and Password. Also, only the librarian will be able to delete the information of an ex-employee.
 Register Customer | In this window the librarian will be able to register the information of a new customer, with the goal of giving them a membership, so they are allow to borrow any books. The information needed is: Name, Telephone Number and Email.
 Register/Delete Book | Here, the librarian can register the information of a new book in stock. Also, they will be able to delete the information of a book that is no longer available. To register a book, the librarian should input the next information: Name of the book, Author, Publisher, Year of publication, Pages and a Short review of the book.
 Lend Book | Once the customer has the book the want to borrow, in this window the librarian will register the name of the book, the date and the information of the customer.
@@ -61,3 +63,10 @@ Section | Description
 ---------|-----------
 Main menu (Search Book) | This is the only screen of the customer software application.Here, customer will be able to look through in the database of the library, to search for a determined book. They can search a book by: Name, Author, Publisher, Year of publication and Pages. Once the query is done, the information of the book or any book related will be printed on the screen for the customer. The data printed will be: Name, Author, Publisher, Year of publication Pages, Short Review of the Book and the section of the library where they can find the book.
 #### Functional requirements
+##### Librarian Application
+* Login screen (Username and Password)
+* Register/Delete employee info.
+* Register Customer info.
+* Register/Delete book info.
+* Search Book.
+* Register borrowed book information.
