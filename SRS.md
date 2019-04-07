@@ -30,7 +30,7 @@ Customer Desktop Application:
 * Consult the information of an specific book.
 
 #### User characteristics
-User|Description
+User | Description
 ----|-----------
 Librarian | Person in charge of the library. They help people find information and conduct research for personal and professional use. Their duties may change based on the type of library they work in.
 Customer | Person who its looking for a book from the library. They may want to borrow a book for a certain amount of time.
@@ -41,3 +41,16 @@ Customer | Person who its looking for a book from the library. They may want to 
 * The librarian is accustomed to using a similar computer application.
 * The customer should be registered in the system before borrowing a book.
 ## Specific requirements
+This section will provide a description of the specific actions the system will do.
+#### External interfaces
+The both applications have visual elements that will be described in this section.
+
+##### Librarian Application
+Section | Description
+---------|-----------
+Login | This is the first window that will pop up once the application is running. The librarian must input their username and password to gain access to the system.
+Main menu | This window will pop up once the librarian got access. They will have an array of options to choose from: Register Customer, Register/Delete Book, Consult Book, Borrowed Books.
+Register Customer | In this window the librarian will be able to register the information of a new customer, with the goal of giving them a membership, so they are allow to borrow any books. The information needed is: Name, Telephone Number and Email.
+Register/Delete Book |
+
+#### Functional requirements
