@@ -17,8 +17,17 @@ The next chapter, Overall description, will give an overview of the functionalit
 The third chapter, Specific requirements, will describe the details of the funcionality of the product. This chapter uses technical terms, so its mainly aimed for the use of developers.
 ## Overall description
 #### Product perspective
-This software system is a new product that will be implemented in the Test Library of certain town. It will be divided in three main parts, the software application for the librarian, the application for the customer and the database that will contain the information of the books and the customers.
+This software system is a new product that will be implemented in the Test Library of certain town. It will be divided in two main parts, the software application for the librarian and the application for the customer. Both of this applications will be connected to a database designed for the purpose of this system.
 #### Product functions
+Librarian Desktop Application:
+* Register a new customer.
+* Register, update or delete the information of a book.
+* Register the date and time of a borrowed book, its information and which customer got it.
+* Consult what books are available in the library.
+
+Customer Desktop Application:
+* Consult what books are available in the library.
+* Consult the information of an specific book.
 
 #### User characteristics
 User|Description
