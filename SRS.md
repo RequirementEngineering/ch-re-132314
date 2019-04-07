@@ -36,5 +36,8 @@ Librarian | Person in charge of the library. They help people find information a
 Customer | Person who its looking for a book from the library. They may want to borrow a book for a certain amount of time.
 
 #### Constraints
+* The computers that will run the librarian and customer application should have Windows 7 up to Windows 10 as Operating System.
 #### Assumptions and dependencies
+* The librarian is accustomed to using a similar computer application.
+* The customer should be registered in the system before borrowing a book.
 ## Specific requirements
