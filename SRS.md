@@ -7,7 +7,10 @@ The software system will be developed for the Test Library. It is a desktop appl
 #### Definitions, acronyms, and abbreviations
 Term | Definition
 -----|-----------
-
+Software | Set of instructions, data or programs used to operate computers and execute specific tasks.
+Hardware | Physical parts of a computer and related devices.
+Application | Program, or group of programs, that is designed for the end user.
+Database | Collection of informations organized in such way that a computer program can quicly select desired pieces of data.
 #### References
 #### Overview
 The next chapter, Overall description, will give an overview of the functionality of the system.
