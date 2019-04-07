@@ -51,6 +51,8 @@ Section | Description
 Login | This is the first window that will pop up once the application is running. The librarian must input their username and password to gain access to the system.
 Main menu | This window will pop up once the librarian got access. They will have an array of options to choose from: Register Customer, Register/Delete Book, Consult Book, Borrowed Books.
 Register Customer | In this window the librarian will be able to register the information of a new customer, with the goal of giving them a membership, so they are allow to borrow any books. The information needed is: Name, Telephone Number and Email.
-Register/Delete Book |
+Register/Delete Book | Here, the librarian can register the information of a new book in stock. Also, they will be able to delete the information of a book that is no longer available. To register a book, the librarian should input the next information: Name of the book, Author, Publisher, Year of publication and Pages.
+Consult Book | In this window, the librarian will be able to help the customer to find a book. There will be a search bar that will allow to find a book by: Name, Author, Publisher, Year of publication and Pages.
+Borrowed Books | This window will show the librarian what books were borrowed, which customer has it and the date it was borrowed.
 
 #### Functional requirements
