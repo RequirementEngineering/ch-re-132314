@@ -49,10 +49,15 @@ The both applications have visual elements that will be described in this sectio
 Section | Description
 ---------|-----------
 Login | This is the first window that will pop up once the application is running. The librarian must input their username and password to gain access to the system.
-Main menu | This window will pop up once the librarian got access. They will have an array of options to choose from: Register Customer, Register/Delete Book, Consult Book, Borrowed Books.
+Main menu | This window will pop up once the librarian got access. They will have an array of options to choose from: Register Customer, Register/Delete Book, Consult Book, Lend Book and Borrowed Books.
 Register Customer | In this window the librarian will be able to register the information of a new customer, with the goal of giving them a membership, so they are allow to borrow any books. The information needed is: Name, Telephone Number and Email.
-Register/Delete Book | Here, the librarian can register the information of a new book in stock. Also, they will be able to delete the information of a book that is no longer available. To register a book, the librarian should input the next information: Name of the book, Author, Publisher, Year of publication and Pages.
-Consult Book | In this window, the librarian will be able to help the customer to find a book. There will be a search bar that will allow to find a book by: Name, Author, Publisher, Year of publication and Pages.
+Register/Delete Book | Here, the librarian can register the information of a new book in stock. Also, they will be able to delete the information of a book that is no longer available. To register a book, the librarian should input the next information: Name of the book, Author, Publisher, Year of publication, Pages and a Short review of the book.
+Lend Book | Once the customer has the book the want to borrow, in this window the librarian will register the name of the book, the date and the information of the customer.
+Search Book | In this window, the librarian will be able to help the customer to find a book. There will be a search bar that will allow to find a book by: Name, Author, Publisher, Year of publication and Pages.
 Borrowed Books | This window will show the librarian what books were borrowed, which customer has it and the date it was borrowed.
 
+##### Customer Application
+Section | Description
+---------|-----------
+Main menu (Search Book) | This is the only screen of the customer software application.Here, customer will be able to look through in the database of the library, to search for a determined book. They can search a book by: Name, Author, Publisher, Year of publication and Pages. Once the query is done, the information of the book or any book related will be printed on the screen for the customer. The data printed will be: Name, Author, Publisher, Year of publication Pages, Short Review of the Book and the section of the library where they can find the book.
 #### Functional requirements
