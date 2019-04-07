@@ -17,7 +17,9 @@ The next chapter, Overall description, will give an overview of the functionalit
 The third chapter, Specific requirements, will describe the details of the funcionality of the product. This chapter uses technical terms, so its mainly aimed for the use of developers.
 ## Overall description
 #### Product perspective
+This software system is a new product that will be implemented in the Test Library of certain town. It will be divided in three main parts, the software application for the librarian, the application for the customer and the database that will contain the information of the books and the customers.
 #### Product functions
+
 #### User characteristics
 User|Description
 ----|-----------
