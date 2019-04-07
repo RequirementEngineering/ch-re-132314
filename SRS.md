@@ -19,6 +19,7 @@ The third chapter, Specific requirements, will describe the details of the funci
 User|Description
 ----|-----------
 Librarian | Person in charge of the library. They help people find information and conduct research for personal and professional use. Their duties may change based on the type of library they work in.
+Customer | Person who its looking for a book from the library. They may want to borrow a book for a certain amount of time.
 
 #### Constraints
 #### Assumptions and dependencies
