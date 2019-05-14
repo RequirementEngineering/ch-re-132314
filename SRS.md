@@ -61,7 +61,7 @@ Borrowed Books | This window will show the librarian what books were borrowed, w
 ##### Customer Application
 Section | Description
 ---------|-----------
-Main menu (Search Book) | This is the only screen of the customer software application.Here, customer will be able to look through in the database of the library, to search for a determined book. They can search a book by: Name, Author, Publisher, Year of publication and Pages. Once the query is done, the information of the book or any book related will be printed on the screen for the customer. The data printed will be: Name, Author, Publisher, Year of publication Pages, Short Review of the Book and the section of the library where they can find the book.
+Main menu (Search Book) | This is the only screen of the customer software application. Here, customer will be able to look through in the database of the library, to search for a determined book. They can search a book by: Name, Author, Publisher, Year of publication and Pages. Once the query is done, the information of the book or any book related will be printed on the screen for the customer. The data printed will be: Name, Author, Publisher, Year of publication Pages, Short Review of the Book and the section of the library where they can find the book.
 #### Functional requirements
 #### General Use Case
 ![](images/General%20Use%20Case.png)
@@ -72,3 +72,12 @@ Main menu (Search Book) | This is the only screen of the customer software appli
 * Register/Delete book info.
 * Search Book.
 * Register borrowed book information.
+### Appendixes
+#### Elicitation Process
+The elicitation process was carried out by interviewing the librarian in charge. They explained that there were several processes that were vital in order for the library to function correctly. The next section shows how the interview went.
+Question | Answer 
+---------|---------
+What are the processes of this library? | There are several processes that occur daily here on the library. To begin with, we check what books are available to the clients. We also check what are the books we have lent, who was the client that has it, and what is the date on which they must return it. If the date has passed, the client has to pay a fine. 
+As a librarian, I also have to register any new books we get. We also have to register our new clients in order for them to be able to borrow books.
+Sometimes, there are clients that need to print their documents...
+
