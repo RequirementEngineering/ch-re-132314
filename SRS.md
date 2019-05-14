@@ -63,6 +63,8 @@ Section | Description
 ---------|-----------
 Main menu (Search Book) | This is the only screen of the customer software application.Here, customer will be able to look through in the database of the library, to search for a determined book. They can search a book by: Name, Author, Publisher, Year of publication and Pages. Once the query is done, the information of the book or any book related will be printed on the screen for the customer. The data printed will be: Name, Author, Publisher, Year of publication Pages, Short Review of the Book and the section of the library where they can find the book.
 #### Functional requirements
+#### General Use Case
+![](images/General%20Use%20Case.png)
 ##### Librarian Application
 * Login screen (Username and Password)
 * Register/Delete employee info.
