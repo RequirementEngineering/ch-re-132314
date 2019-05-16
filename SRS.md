@@ -1,19 +1,18 @@
-<p align='center'>
-Universidad Autónoma de Ciudad Juárez</br>
-División Multidisciplinaria de Ciudad Universitaria</br>
-Departamento de Ingeniería Electricidad y Computación</br>
-</p>
-</br></br></br>
-<p align="center">
-<img width="300" height="300" 
-  src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Escudo%20uacj%202015-color-sin%20fondo.png">
-</p>
-</br></br></br></br></br></br>
-<p align='right'>
+<h3 align='center'>
+  Universidad Autónoma de Ciudad Juárez</br>
+  División Multidisciplinaria de Ciudad Universitaria</br>
+  Departamento de Ingeniería Electricidad y Computación</br>
+</h3>
+</br></br></br></br>
+<p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Escudo%20uacj%202015-color-sin%20fondo.png"  width="300" height="300" ></img></p>
+</br></br></br></br>
+<h3 align='right'>
 Desarrollo de Requisitos de Software</br>
 Library Services System</br>
 Jonathan Arreola Peralta</br>
-</p>
+</h3>
+
+
 
 ## Table of Contents
 1. [Introduction](#Introduction)
