@@ -36,7 +36,7 @@ Jonathan Arreola Peralta</br>
        - [Non functional requirements](#Non-functional-requirements) 
 4. [Appendixes](#Appendixes) 
    - [Elicitation process](#Elicitation-process)
-   - [Bussiness Process Management](#Bussiness-Process-Management)
+   - [Bussiness Process Map](#Bussiness-Process-Map)
 
 ## Introduction
 #### Purpose
@@ -107,7 +107,7 @@ What's the information you register about the books? | We register the book's na
 How do you keep track about what books have you lent? | Before they borrow the book, the client has to be registered in our library. We check their library ID to get their information faster. We keep track of whatever books they took, the date and for how long are they going to borrow the books. There are predefined times for how long they can keep the books: 3 days, 7 days or 14 days. They have to come and register the books they borrowed again after their time is over. If they are about to go over the time they can have the books, we'll send them and email to remind them they have to, either return the book or renew their time. Once they go over the established time, they'll have to pay a fine.
 What do you think the web application should have for it to be the most useful for the library and its customers? | Well, having a way to search what books are available would be helpful for both the clients and us as librarians. The clients would be able to know what books without having to come here personally. And it would be helpful for us to keep track of the books we have. There should be a section for the client to know what books they have and when should they return them to avoid fines, and there should be a way for us to keep track of the books we've lent and all that information we talked about before. I guess we would have to need a login system, so each client will be able to access to their information. Because we also sell books, there should be a way to contact the publishing houses that grant us the books. When a certain book is about to run out of stock, we call the respective publishing house and they send to us more books. They take about a week to arrive, so we need to ask for them in advance. We have an accountant that keeps track of our purchases and earning. They will need a way to access the information of the books we've sold, the fines our clients have paid and the earnings we get for printing our clients' documents.
 
-#### Bussiness Process Management
+#### Bussiness Process Map
 
 
 
