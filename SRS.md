@@ -78,5 +78,8 @@ The elicitation process was carried out by interviewing the librarian in charge.
 
 Question | Answer 
 ---------|---------
-What are the processes of this library? | There are several processes that occur daily here on the library. To begin with, we check what books are available to the clients. We also check what are the books we have lent, who was the client that has it, and what is the date on which they must return it. If the date has passed, the client has to pay a fine. As a librarian, I also have to register any new books we get. We also have to register our new clients in order for them to be able to borrow books. Sometimes, there are clients that need to print their documents.
+What are the processes of this library? | There are several processes that occur daily here on the library. To begin with, we check what books are available to the clients. We also check what are the books we have lent, who was the client that has it, and what is the date on which they must return it. If the date has passed, the client has to pay a fine. As a librarian, I also have to register any new books we get. We also have to register our new clients in order for them to be able to borrow books. Sometimes, there are clients that need to print their documents, so in order to make the process faster, maybe they could send their documents to us via this application and we could print it and have it ready for them when they arrive. We also sell a variety of books to our customers, so we check what books we have in stock and what books we need to buy directly from the publishing house.
+What information do you register about your clients? | The usual. We begin with their first and last name, their telephone number and email. 
+What's the information you register about the books? | We register the book's name, autors' names, publishing house, the general subject of the book.
+
 
