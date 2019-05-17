@@ -140,6 +140,17 @@ Preconditions | The client must provide the librarian their information.
 Normal Flow | Librarian: Collect client info, save client info, provide client with username and password, give client a library ID.
 Postconditions | The client must confirm the information on their new library ID is correct.
 
+##### Borrow book Use Case
+![](images/Use%20Case%20Diagram2%20-%20Borrow%20book.jpg)
+
+Name | Borrow book
+---|---
+Author | Jonathan Arreola Peralta
+Brief Description | Once the client has a book they want to take, they must take it to the librarian, so they can register the book information and for how long will the client get it.
+Preconditions | The client has a library ID.
+Normal Flow | Client: Choose book or books, take the book or books to the librarian. Librarian: Register borrowed book or books info, lend the book or books for 3, 7 or 14 days.
+Postconditions | The client must return the books before the date they established with the librarian.
+
 * The system should allow the users to login via a screen asking them for their username and password.
 * The librarian must be able to register the information of a new client.
 * The librarian must be able to register the information of a new book.
