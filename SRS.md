@@ -42,8 +42,12 @@ Jonathan Arreola Peralta</br>
 The goal of this document is to present a description of the Library Services System. It will detail the purpose and the features of the system, its interfaces, what the system will do and the constraints under which it should operate. This document is intended for the stakeholders and the developers of the system.
 
 _Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 #### Scope
 The software system will be developed for the "Test Library". It is a web application that will allow the librarian in charge to manage the registration of new clients, registration of new books, borrowed books and the consultation of available books. This software will also serve as a tool for the clients of the library, allowing them to check through the collection of books available, request printing, pay fines. 
+
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 #### Definitions, acronyms, and abbreviations
 Term | Definition
 -----|-----------
@@ -51,15 +55,27 @@ Software | Set of instructions, data or programs used to operate computers and e
 Hardware | Physical parts of a computer and related devices.
 Application | Program, or group of programs, that is designed for the end user.
 Database | Collection of informations organized in such way that a computer program can quicly select desired pieces of data.
+
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 #### References
 * SISTEMA INFORMATICO PARA LA BIBLIOTECA DE LA INSTITUCIÓN EDUCATIVA DEPARTAMENTAL ANTONIO NARIÑO: https://repository.uniminuto.edu/bitstream/handle/10656/4771/T.TI%20PENAGOS%20JIMENEZ%20GINA%20TATIANA%202014.pdf?sequence=1&isAllowed=y
 * SISTEMA INFORMÁTICO PARA LA GESTIÓN DE LA INFORMACIÓN EN LAS BIBLIOTECAS: http://www.eumed.net/cursecon/ecolat/cu/2012/opah.html
+
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 #### Overview
 The next chapter, Overall description, will give an overview of the functionality of the system.
 The third chapter, Specific requirements, will describe the details of the funcionality of the product. This chapter uses technical terms, so its mainly aimed for the use of developers.
+
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 ## Overall description
 #### Product perspective
 This web application will serve as a tool for both, the librarian and the clients. The librarian will be able to register new clients, new books, check for borrowed books and search in the book database. The client will be able to search books, borrow books pay their fines if the went over the time they had to return borrowed books and request the library to print their documents.
+
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 #### Product functions
 Librarian Functions:
 * Register a new employee.
@@ -80,6 +96,8 @@ Customer Functions:
 Accountant Functions:
 * Review library invoices.
 
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 #### User characteristics
 User | Description
 ----|-----------
@@ -87,14 +105,18 @@ Librarian | Person in charge of the library. They help people find information a
 Accountant | Person in charge of registering the earnings of the library.
 Customer | Person who its looking for a book from the library. They may want to borrow a book for a certain amount of time.
 
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 #### Constraints
 * An access to internet is required to use the web application.
 #### Assumptions and dependencies
 * The librarian is accustomed to using a similar web application.
 * The client must be registered in the system before borrowing a book.
+
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
+
 ## Specific requirements
 This section will provide a description of the specific actions the system will do.
-
 #### Functional requirements
 #### General Use Case
 ![](images/General%20Use%20Case.png)
@@ -104,14 +126,16 @@ This section will provide a description of the specific actions the system will 
 * The system must allow the update or deletion of book's information.
 * The librarian must be able to register the information of a borrowed book, as well as what client has it.
 * The system will send a message to a client when they are about to pass the date when they should return any borrowed book.
-* 
 
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
 
 #### Non-functional requirements
 * The system must be able to operate properly with up to 200 users at a time.
 * Only the librarian will be able to update or delete any information about a client or a book.
 * Any external communication between the client and the system must be encrypted.
 * The system must have clear and user friendly interfaces.
+
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
 
 ### Appendixes
 #### Elicitation Process
@@ -125,6 +149,7 @@ What's the information you register about the books? | We register the book's na
 How do you keep track about what books have you lent? | Before they borrow the book, the client has to be registered in our library. We check their library ID to get their information faster. We keep track of whatever books they took, the date and for how long are they going to borrow the books. There are predefined times for how long they can keep the books: 3 days, 7 days or 14 days. They have to come and register the books they borrowed again after their time is over. If they are about to go over the time they can have the books, we'll send them and email to remind them they have to, either return the book or renew their time. Once they go over the established time, they'll have to pay a fine.
 What do you think the web application should have for it to be the most useful for the library and its customers? | Well, having a way to search what books are available would be helpful for both the clients and us as librarians. The clients would be able to know what books without having to come here personally. And it would be helpful for us to keep track of the books we have. There should be a section for the client to know what books they have and when should they return them to avoid fines, and there should be a way for us to keep track of the books we've lent and all that information we talked about before. I guess we would have to need a login system, so each client will be able to access to their information. Because we also sell books, there should be a way to contact the publishing houses that grant us the books. When a certain book is about to run out of stock, we call the respective publishing house and they send to us more books. They take about a week to arrive, so we need to ask for them in advance. We have an accountant that keeps track of our purchases and earning. They will need a way to access the information of the books we've sold, the fines our clients have paid and the earnings we get for printing our clients' documents.
 
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
 #### Bussiness Process Map
 
 ###### Main diagram
@@ -141,3 +166,4 @@ What do you think the web application should have for it to be the most useful f
 ###### Printing
 <p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Request%20printing.jpg"></img></p>
 
+_Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
