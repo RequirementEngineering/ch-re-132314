@@ -41,7 +41,7 @@ Jonathan Arreola Peralta</br>
 #### Purpose
 The goal of this document is to present a description of the Library Services System. It will detail the purpose and the features of the system, its interfaces, what the system will do and the constraints under which it should operate. This document is intended for the stakeholders and the developers of the system.
 #### Scope
-The software system will be developed for the "Test Library". It is a web application that will allow the librarian in charge to manage the registration of new clients, registration of new books, borrowed books and the consultation of available books. This software will also serve as a tool for the clients of the library, allowing them to check through the collection of books available. 
+The software system will be developed for the "Test Library". It is a web application that will allow the librarian in charge to manage the registration of new clients, registration of new books, borrowed books and the consultation of available books. This software will also serve as a tool for the clients of the library, allowing them to check through the collection of books available, request printing, pay fines. 
 #### Definitions, acronyms, and abbreviations
 Term | Definition
 -----|-----------
@@ -50,28 +50,39 @@ Hardware | Physical parts of a computer and related devices.
 Application | Program, or group of programs, that is designed for the end user.
 Database | Collection of informations organized in such way that a computer program can quicly select desired pieces of data.
 #### References
+* SISTEMA INFORMATICO PARA LA BIBLIOTECA DE LA INSTITUCIÓN EDUCATIVA DEPARTAMENTAL ANTONIO NARIÑO: https://repository.uniminuto.edu/bitstream/handle/10656/4771/T.TI%20PENAGOS%20JIMENEZ%20GINA%20TATIANA%202014.pdf?sequence=1&isAllowed=y
+* SISTEMA INFORMÁTICO PARA LA GESTIÓN DE LA INFORMACIÓN EN LAS BIBLIOTECAS: http://www.eumed.net/cursecon/ecolat/cu/2012/opah.html
 #### Overview
 The next chapter, Overall description, will give an overview of the functionality of the system.
 The third chapter, Specific requirements, will describe the details of the funcionality of the product. This chapter uses technical terms, so its mainly aimed for the use of developers.
 ## Overall description
 #### Product perspective
-This software system is a new product that will be implemented in the Test Library. It will be divided in two main parts, the software application for the librarian and the application for the customer. Both of this applications will be connected to a database designed for the purpose of this system.
+This web application will serve as a tool for both, the librarian and the clients. The librarian will be able to register new clients, new books, check for borrowed books and search in the book database. The client will be able to search books, borrow books pay their fines if the went over the time they had to return borrowed books and request the library to print their documents.
 #### Product functions
-Librarian Desktop Application:
+Librarian Functions:
 * Register a new employee.
 * Register a new customer.
 * Register, update or delete the information of a book.
 * Register the date and time of a borrowed book, its information and which customer got it.
 * Consult what books are available in the library.
+* Order new books.
 
-Customer Desktop Application:
+Customer Functions:
 * Consult what books are available in the library.
 * Consult the information of an specific book.
+* Borrow book.
+* Request printing.
+* Pay fine.
+* Buy books.
+
+Accountant Functions:
+* Review library invoices.
 
 #### User characteristics
 User | Description
 ----|-----------
 Librarian | Person in charge of the library. They help people find information and conduct research for personal and professional use. Their duties may change based on the type of library they work in.
+Accountant | Person
 Customer | Person who its looking for a book from the library. They may want to borrow a book for a certain amount of time.
 
 #### Constraints
@@ -81,10 +92,10 @@ Customer | Person who its looking for a book from the library. They may want to 
 * The customer should be registered in the system before borrowing a book.
 ## Specific requirements
 This section will provide a description of the specific actions the system will do.
-#### External interfaces
-The both applications have visual elements that will be described in this section.
 
 #### Functional requirements
+
+#### Non-functional requirements
 #### General Use Case
 ![](images/General%20Use%20Case.png)
 ##### Librarian Application
@@ -121,3 +132,4 @@ What do you think the web application should have for it to be the most useful f
 
 ###### Printing
 <p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Request%20printing.jpg"></img></p>
+
