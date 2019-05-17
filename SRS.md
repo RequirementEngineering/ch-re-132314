@@ -9,7 +9,7 @@
 <h3 align='right'>
 Desarrollo de Requisitos de Software</br>
 Library Services System</br>
-Jonathan Arreola Peralta</br>
+Jonathan Arreola Peralta  132314</br>
 </h3>
 
 
@@ -118,8 +118,30 @@ _Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
 ## Specific requirements
 This section will provide a description of the specific actions the system will do.
 #### Functional requirements
-#### General Use Case
+##### General Use Case
 ![](images/General%20Use%20Case.png)
+
+Name | Library Services System
+---|---
+Author | Jonathan Arreola Peralta
+Brief Description | The application will allow the client to search for a book, borrow a book, pay a library fine and request printing. The librarian will be able to search for a book, register new clients and new books, check what books have they lent and order new books from the publishers. The accountant must have access to the earnings of the library to register them.
+Actors | Librarian, accountant and client.
+Preconditions | All the actors must be registered on the system.
+Normal Flow | Librarian: Register client, register book search book. Client: Search book, borrow book, pay fine, request printing. Accountant: Register purchases/earnings.
+Postconditions | Any information gathered must be saved.
+
+##### Client registration Use Case
+![](images/Use%20Case%20Diagram1%20-%20Register%20client.jpg)
+
+Name | Client registration
+---|---
+Author | Jonathan Arreola Peralta
+Brief Description | The librarian must register each new client in order for them to gain access to the web application.
+Actors | Librarian.
+Preconditions | The client must provide the librarian their information.
+Normal Flow | Librarian: Collect client info, save client info, provide client with username and password, give client a library ID.
+Postconditions | The client must confirm the information on their new library ID is correct.
+
 * The system should allow the users to login via a screen asking them for their username and password.
 * The librarian must be able to register the information of a new client.
 * The librarian must be able to register the information of a new book.
