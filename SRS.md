@@ -82,29 +82,35 @@ Accountant Functions:
 User | Description
 ----|-----------
 Librarian | Person in charge of the library. They help people find information and conduct research for personal and professional use. Their duties may change based on the type of library they work in.
-Accountant | Person
+Accountant | Person in charge of registering the earnings of the library.
 Customer | Person who its looking for a book from the library. They may want to borrow a book for a certain amount of time.
 
 #### Constraints
-* The computers that will run the librarian and customer application should have Windows 7 up to Windows 10 as Operating System.
+* An access to internet is required to use the web application.
 #### Assumptions and dependencies
-* The librarian is accustomed to using a similar computer application.
-* The customer should be registered in the system before borrowing a book.
+* The librarian is accustomed to using a similar web application.
+* The client must be registered in the system before borrowing a book.
 ## Specific requirements
 This section will provide a description of the specific actions the system will do.
 
 #### Functional requirements
-
-#### Non-functional requirements
 #### General Use Case
 ![](images/General%20Use%20Case.png)
-##### Librarian Application
-* Login screen (Username and Password)
-* Register/Delete employee info.
-* Register Customer info.
-* Register/Delete book info.
-* Search Book.
-* Register borrowed book information.
+* The system should allow the users to login via a screen asking them for their username and password.
+* The librarian must be able to register the information of a new client.
+* The librarian must be able to register the information of a new book.
+* The system must allow the update or deletion of book's information.
+* The librarian must be able to register the information of a borrowed book, as well as what client has it.
+* The system will send a message to a client when they are about to pass the date when they should return any borrowed book.
+* 
+
+
+#### Non-functional requirements
+* The system must be able to operate properly with up to 200 users at a time.
+* Only the librarian will be able to update or delete any information about a client or a book.
+* Any external communication between the client and the system must be encrypted.
+* The system must have clear and user friendly interfaces.
+
 ### Appendixes
 #### Elicitation Process
 The elicitation process was carried out by interviewing the librarian in charge. They explained that there were several processes that were vital in order for the library to function correctly. The next section shows how the interview went.
