@@ -108,5 +108,14 @@ What do you think the web application should have for it to be the most useful f
 
 #### Bussiness Process Map
 
+###### Main diagram
 
+<p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Library%20BPM.jpg"></img></p>
 
+##### Sub processes
+###### Client registration
+<p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Client%20registration.jpg"></img></p>
+###### Book registration
+<p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Register%20new%20book.jpg"></img></p>
+###### Printing
+<p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Request%20printing.jpg"></img></p>
