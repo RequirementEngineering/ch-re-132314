@@ -197,4 +197,6 @@ _Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
 ###### Printing
 <p align='center'><img src="https://github.com/RequirementEngineering/ch-re-132314/blob/master/images/Request%20printing.jpg"></img></p>
 
+_All the use cases and BPM are contained in this file:_ https://github.com/RequirementEngineering/ch-re-132314/blob/master/Library%20Services%20System.vpp.bak_000f.vpp
+
 _Return to Table of Contents:_ [Table of Contents](#Table-of-Contents)
